@@ -17,7 +17,7 @@
 ### 1 - Introduction to AI Programming
 | | Lesson |  |
 |:---:|:--- | :--- |
-| | 1. Welcome to AI Programming with Python | <ul><li>[] 1. Welcome to the AI Programming with Python Nanodegree Program</li><li>[] 2. Meet your Instructors</li><li>[] 3. Community Guidelines</li><li>[] 4. Lesson Plan</li></ul>|
+| &check; | 1. Welcome to AI Programming with Python | <ul><li>[x] 1. Welcome to the AI Programming with Python Nanodegree Program</li><li>[x] 2. Meet your Instructors</li><li>[x] 3. Community Guidelines</li><li>[x] 4. Lesson Plan</li></ul>|
 | | 2. Getting Help | <ul><li>[] </li></ul> |
 | | 3. Get Help with your Account | <ul><li>[] </li></ul> |
 
