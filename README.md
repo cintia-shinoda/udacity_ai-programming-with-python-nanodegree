@@ -21,7 +21,9 @@
 | &check; | [1. Welcome to AI Programming with Python](https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/1-Intro%20to%20AI%20Programming/Lesson%201%20-%20Welcome%20to%20AI%20Programming%20with%20Python.md) | <ul><li>[x] 1. Welcome to the AI Programming with Python Nanodegree Program</li><li>[x] 2. Meet your Instructors</li><li>[x] 3. Community Guidelines</li><li>[x] 4. Lesson Plan</li></ul>|
 | &check; | [2. Getting Help](https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/1-Intro%20to%20AI%20Programming/Lesson%202%20-%20Getting%20Help.md) | <ul><li>[x] 1. What It Takes</li><li>[x] 2. Getting Help</li><li>[x] 3. Mentor Help</li><li>[x] 4. Submitting Classroom Feedback</li><li>[x] 5. Help Center</li><li>[x] 6. Udacity Support Community</li><li>[x] 7. Plagiarism</li><li>[x] Quiz: Plagiarism at Udacity</li></ul> |
 | &check; | [3. Get Help with your Account](https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/1-Intro%20to%20AI%20Programming/Lesson%203%20-%20Get%20Help%20with%20Your%20Account.md) | <ul><li>[x] 1. FAQ</li><li>[x] 2.  Support</li></ul> |
+
 <br><br><br>
+
 
 
 ### 2 - Introduction to Python for AI Programmers
@@ -35,7 +37,9 @@
 | | 5. Functions | <ul><li>[] </li></ul> |
 | | 6. Scripting | <ul><li>[] </li></ul> |
 | | 7. Intro to Object-Oriented Programming | <ul><li>[] </li></ul> |
+
 <br><br><br>
+
 
 
 ### 3 - Numpy, Pandas, Matplotlib
@@ -43,7 +47,9 @@
 | | Lesson |  |
 |:---:|:--- | :--- |
 | | | <ul><li>[] </li></ul> |
+
 <br><br><br>
+
 
 
 ### 4 - Linear Algebra Essentials
@@ -51,7 +57,9 @@
 | | Lesson |  |
 |:---:|:--- | :--- |
 | | | <ul><li>[] </li></ul> |
+
 <br><br><br>
+
 
 
 ### 5 - Calculus Essentials
@@ -59,7 +67,9 @@
 | | Lesson |  |
 |:---:|:--- | :--- |
 | | | <ul><li>[] </li></ul> |
+
 <br><br><br>
+
 
 
 ### 6 - Neural Networks - AI Programming with Python
@@ -67,7 +77,9 @@
 | | Lesson |  |
 |:---:|:--- | :--- |
 | | | <ul><li>[] </li></ul> |
+
 <br><br><br>
+
 
 
 ### 7 - Create your Own Image Classifier
@@ -75,7 +87,9 @@
 | | Lesson |  |
 |:---:|:--- | :--- |
 | | | <ul><li>[] </li></ul> |
+
 <br><br><br>
+
 
 
 ### 8 - Next Steps!
