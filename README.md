@@ -17,8 +17,8 @@
 ### 1 - Introduction to AI Programming
 | | Lesson |  |
 |:---:|:--- | :--- |
-| &check; | 1. Welcome to AI Programming with Python | <ul><li>[x] 1. Welcome to the AI Programming with Python Nanodegree Program</li><li>[x] 2. Meet your Instructors</li><li>[x] 3. Community Guidelines</li><li>[x] 4. Lesson Plan</li></ul>|
-| | 2. Getting Help | <ul><li>[] </li></ul> |
+| &check; | [1. Welcome to AI Programming with Python](https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/1-Intro%20to%20AI%20Programming/Lesson%201%20-%20Welcome%20to%20AI%20Programming%20with%20Python.md) | <ul><li>[x] 1. Welcome to the AI Programming with Python Nanodegree Program</li><li>[x] 2. Meet your Instructors</li><li>[x] 3. Community Guidelines</li><li>[x] 4. Lesson Plan</li></ul>|
+| | 2. Getting Help | <ul><li>[] 1. What It Takes</li><li>[] 2. Getting Help</li><li>[] 3. Mentor Help</li><li>[] 4. Submitting Classroom Feedback</li><li>[] 5. Help Center</li><li>[] 6. Udacity Support Community</li><li>[] 7. Plagiarism</li><li>[] Quiz: Plagiarism at Udacity</li></ul> |
 | | 3. Get Help with your Account | <ul><li>[] </li></ul> |
 
 
