@@ -45,7 +45,9 @@
 
 # 8. Quiz: Plagiarism at Udacity
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/q-1-2-8-1.png" alt="q1"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-1-2-8-1.png" alt="q1"/>
+
+<br>
 
   <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/q-1-2-8-2.png" alt="q2"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-1-2-8-2.png" alt="q2"/>
