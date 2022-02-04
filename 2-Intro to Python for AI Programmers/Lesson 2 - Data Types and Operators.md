@@ -74,6 +74,7 @@ or
     - can't have spaces
     - can't use reserved words or built-in identifiers
 #### keywords in Python
+
     <table>
         <tr>
             <td>False</td>
@@ -125,6 +126,7 @@ or
             <td></td>
         </tr>
     </table>
+
 - use all lowercase and underscores to separate words (snakecase)
 <br><br>
 
