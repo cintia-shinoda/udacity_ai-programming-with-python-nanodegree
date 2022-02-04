@@ -31,7 +31,7 @@
 | | Lesson |  |
 | :---: | :--- | :--- |
 | &check; | [1. Why Python Programming](https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/2-Intro%20to%20Python%20for%20AI%20Programmers/Lesson%201%20-%20Why%20Python%20Programming.md) | <ul><li>[x] 1. Welcome to the Course</li><li>[x] 2. Programming in Python</li><li>[x] 3. Course Overview</li><li>[x] Prerequisites</li></ul> |
-| | 2. Data Types and Operators | <ul><li>[] 1. Introduction</li><li>[] 2. Arithmetic Operators</li><li>[] 3. Quiz: Arithmetic Operators</li><li>[] 4. Solution: Arithmetic Operators</li><li>[] 5. </li></ul> |
+| | 2. Data Types and Operators | <ul><li>[x] 1. Introduction</li><li>[x] 2. Arithmetic Operators</li><li>[x] 3. Quiz: Arithmetic Operators</li><li>[x] 4. Solution: Arithmetic Operators</li><li>[] 5. Variables and Assignment Operators</li><li>[] </li></ul> |
 | | 3. Data Structures | <ul><li>[] </li></ul> |
 | | 4. Control Flow | <ul><li>[] </li></ul> |
 | | 5. Functions | <ul><li>[] </li></ul> |
