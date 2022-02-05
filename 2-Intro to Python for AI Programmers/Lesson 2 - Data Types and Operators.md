@@ -74,58 +74,15 @@ or
     - can't have spaces
     - can't use reserved words or built-in identifiers
 #### keywords in Python
-
-    <table>
-        <tr>
-            <td>False</td>
-            <td>class</td>
-            <td>finally</td>
-            <td>is</td>
-            <td>return</td>
-        </tr>
-        <tr>
-            <td>None</td>
-            <td>continue</td>
-            <td>for</td>
-            <td>lambda</td>
-            <td>try</td>
-        </tr>
-        <tr>
-            <td>True</td>
-            <td>def</td>
-            <td>from</td>
-            <td>nonlocal</td>
-            <td>while</td>
-        </tr>
-        <tr>
-            <td>and</td>
-            <td>del</td>
-            <td>global</td>
-            <td>not</td>
-            <td>with</td>
-        </tr>
-        <tr>
-            <td>as</td>
-            <td>elif</td>
-            <td>if</td>
-            <td>or</td>
-            <td>yield</td>
-        </tr>
-           <tr>
-            <td>assert</td>
-            <td>else</td>
-            <td>import</td>
-            <td>pass</td>
-            <td></td>
-        </tr>
-       <tr>
-            <td>break</td>
-            <td>except</td>
-            <td>in</td>
-            <td>raise</td>
-            <td></td>
-        </tr>
-    </table>
+||||||
+|:---:|:---:|:---:|:---:|:---:|
+| False | class | finally | is | return|
+| None | continue | for | lambda | try |
+| True | def | from | nonlocal | while |
+| and | del | global | not | with |
+| as | elif | if | or | yield |
+| assert | else | import | pass | |
+| break | except | in | raise | |
 
 - use all lowercase and underscores to separate words (snakecase)
 <br><br>
@@ -250,12 +207,18 @@ print(.1 + .1 + .1 == 3)
 
 
 # 11. Quiz: Booleans, Comparison Operators, and Logical Operators
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-11-1.png" alt="q1"/>
 
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-11-2.png" alt="q2"/>
 <br><br><br>
 
 
 
 # 12. Solution: Booleans, Comparison Operators, and Logical Operators
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-12.png" alt="solution1"/>
 <br><br><br>
 
 
