@@ -224,6 +224,53 @@ print(.1 + .1 + .1 == 3)
 
 
 # 13. Strings
+- **string:** data type for immutable ordered sequences of characters (e.g. letters, numbers, spaces, and symbols)
+- to create strings: 
+```python
+print("hello")  # double quotes
+print('hello')  # single quotes
+```
+
+- to assign a string to a variable
+```python
+welcome_message = "Hello, welcome to Udacity!"
+print(welcome_message)
+```
+
+- when we want quotation marks in our strings:
+  - place the string in single quotes
+  ```python
+  pet_halibut = ' why should I be tarred with the epithet "loony" merely because I have a pet halibut?'
+  ```
+  - use a backslash to escape quotes
+    ```python
+    salesman = "I think you\'re an encyclopaedia salesman"
+    ```
+- operations with strings:
+  - to put strings together(concatenate) ```+```  
+  ```python
+  first_word = "Hello"
+  second_word = "There"
+  print(first_word + second_word)
+  # HelloThere
+
+  print(first_word + " " + second_word)
+  # Hello There
+  ```
+  - to repeat strings ```*```
+  ```python
+  word = "Hello"
+  print(word * 5)
+  # HelloHelloHelloHelloHello
+  ```
+
+- ```len()``` : built-in function that returns the length of an object
+  ```python
+  udacity_length = len("Udacity")
+  print(udacity_length)
+  # 7
+  ```
+
 <br><br><br>
 
 
