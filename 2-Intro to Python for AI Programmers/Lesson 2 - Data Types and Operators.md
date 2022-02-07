@@ -224,7 +224,7 @@ print(.1 + .1 + .1 == 3)
 
 
 # 13. Strings
-- **string:** data type for immutable ordered sequences of characters (e.g. letters, numbers, spaces, and symbols)
+- **string (```str```):** data type for immutable ordered sequences of characters (e.g. letters, numbers, spaces, and symbols)
 - to create strings: 
 ```python
 print("hello")  # double quotes
@@ -240,11 +240,11 @@ print(welcome_message)
 - when we want quotation marks in our strings:
   - place the string in single quotes
   ```python
-  pet_halibut = ' why should I be tarred with the epithet "loony" merely because I have a pet halibut?'
+  pet_halibut = 'why should I be tarred with the epithet "loony" merely because I have a pet halibut?'
   ```
   - use a backslash to escape quotes
     ```python
-    salesman = "I think you\'re an encyclopaedia salesman"
+    salesman = '"I think you\'re an encyclopaedia salesman"'
     ```
 - operations with strings:
   - to put strings together(concatenate) ```+```  
@@ -264,21 +264,80 @@ print(welcome_message)
   # HelloHelloHelloHelloHello
   ```
 
-- ```len()``` : built-in function that returns the length of an object
+- ```len()``` : built-in function that returns the length (in strings is the number of characters in the string) of an object - will always be a integer
   ```python
   udacity_length = len("Udacity")
   print(udacity_length)
   # 7
+
+  print(len("ababa") / len("ab"))
+  # 2.5
   ```
 
+- you can index into strings
+```python
+first_word = "Hello"
+
+first_word[0]
+# H
+first_word[1]
+# e
+```
 <br><br><br>
 
 
 
 # 14. Quiz: Strings
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-1.png" alt="quiz1"/>
+
+  <p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-2.png" alt="quiz2"/>
+
+  <p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-3.png" alt="quiz3"/>
+
+    <p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-3a.png" alt="comment"/>
+
+  <p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-4.png" alt="quiz4"/>
+
+  <p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-5.png" alt="quiz5"/>
+
+    <p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-5a.png" alt="comment"/>
 <br><br><br>
 
 
 
 # 15. Solution: Strings
+  <p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-15.png" alt="solutions"/>
+<br><br><br>
+
+
+
+# 16. Type and Type Conversion
+<br><br><br>
+
+
+
+# 17. Quiz: Type and Type Conversion
+<br><br><br>
+
+
+
+# 18. Solution: Type and Type Conversion
+<br><br><br>
+
+
+
+# 19. String Methods
+<br><br><br>
+
+
+
+# 20. Quiz: String Methods
 <br><br><br>
