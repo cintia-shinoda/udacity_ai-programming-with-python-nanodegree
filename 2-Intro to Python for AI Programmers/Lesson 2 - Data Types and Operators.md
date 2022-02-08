@@ -320,21 +320,83 @@ first_word[1]
 
 
 # 16. Type and Type Conversion
+- 4 data types so far:
+  - `int`
+  - `float`
+  - `bool`
+  - `string`
+
+- check the data type:
+  ```python
+  print(type(633))
+  # int
+
+  print(type(633.0))
+  # float
+
+  print(type("633"))
+  # str
+
+  print(type(True))
+  # bool
+  ```
+
+- `int` from a `float`:
+  ```python
+  count = int(4.0)
+  print(count)
+  print(type(count))
+  # 4
+  # class 'int'
+  ```
+
+- 
+  ```python
+  house_number = 13
+  street_name = "The Crescent"
+  town_name = "Belmont"
+  print(type(house_number))
+  # class 'int'
+
+  address = str(house_number) + " " + street_name + ", " + town_name
+  print(address)
+  # 13 The Crescent, Belmont
 <br><br><br>
 
 
 
 # 17. Quiz: Type and Type Conversion
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-1.png" alt="quiz1"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-2.png" alt="quiz2"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-3.png" alt="quiz3"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-4.png" alt="quiz4"/>
+  
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-5.png" alt="quiz5"/>
 <br><br><br>
 
 
 
 # 18. Solution: Type and Type Conversion
+## Solution: Total Sales
+```python
+weekly_sales = int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales)
+weekly_sales = str(weekly_sales)  #convert the type back!!
+print("This week's total sales: " + weekly_sales)
+```
 <br><br><br>
 
 
 
 # 19. String Methods
+
 <br><br><br>
 
 
