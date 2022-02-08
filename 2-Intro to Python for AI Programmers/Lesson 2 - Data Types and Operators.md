@@ -630,11 +630,11 @@ print(message.format(length, first_idx, last_idx, count))
   - if I accidentally do not include the required number of arguments when I'm calling a function (in the example, len)
   - This message tells me how many arguments the function requires (one in this case), compared with how many I gave it (0)
 
-  ### Search for Your Error Message
-  - Google search or StackOverflow
+### Search for Your Error Message
+- Google search or StackOverflow
 
-  ### Use Print Statements to Help Debugging
-  - Adding print statements temporarily into your code can help you see which code lines have been executed before the error occurs
+### Use Print Statements to Help Debugging
+- Adding print statements temporarily into your code can help you see which code lines have been executed before the error occurs
 
 <br><br><br>
 
@@ -660,4 +660,5 @@ print(message.format(length, first_idx, last_idx, count))
 
 ## Additional Practice Resources
 [HackerRank](https://www.hackerrank.com/domains/python)
+
 [Codewars](https://www.codewars.com/dashboard)
