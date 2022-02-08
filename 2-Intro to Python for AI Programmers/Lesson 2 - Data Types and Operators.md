@@ -437,7 +437,7 @@ first_word[1]
 ### some other methods possible with any string:
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| `.capitalize()` | `.encode()`| `.format()` | `.isalpha()` | `.istitle()`|
+| `.capitalize()` | `.encode()`| `.format()` | `.isalpha()` | `.islower()` |`.istitle()`|
 | `.casefold()` | `.endswith()`| `.format_map()` | `.isdecimal()` | `.isnumeric()` | `.isupper()` |
 | `.center()` | `.expandtabs()` | `.index()` | `.isdigit()` | `.isprintable()` | `.join()` |
 | `.count()` | `.find()` | `.isalnum()` | `.isidentifier()` | `.isspace()` | `.ljust()` |
@@ -494,21 +494,148 @@ print(maria_string.format("math", "statistics"))
 
 
 # 21. Another String Method - `.split()`
+- returns a data container called a list
+- this list contains the words from the input string
+- has two additional arguments (sep and maxsplit)
+  - *sep* 
+    - sep argument stands for "separator", 
+    - can be used to identify how the string should be split up 
+    - whitespace characters (space, tab, return, newline) or specific punctuation (comma, dashes)
+    - if not provided, the default separator is whitespace
+  - *maxplit*
+    - provides the maximum number of splits
+    - gives maxsplit + 1 number of elements in the new list, with the remaining string being returned as the last element in the list
+
+```python
+new_str = "The cow jumped over the moon."
+new_str.split()
+# ['The', 'cow', 'jumped', 'over', 'the', 'moon.']
+```
+
+```python
+new_str.split(' ', 3)  # separator is space and the maxsplit is set to 3
+# ['The', 'cow', 'jumped', 'over the moon.']
+```
+
+```python
+# using period as a separator
+new_str.split('.')
+# ['The cow jumped over the moon', '']
+```
+
+```python
+# using no separators but with maxsplit argument of 3
+new_str.split(None, 3)
+# ['The', 'cow', 'jumped', 'over the moon.']
+```
 <br><br><br>
 
 
 
 # 22. Quiz: String Methods Practice
+Below, we have a string variable that contains the first verse of the poem, [If by Rudyard Kipling](https://en.wikipedia.org/wiki/If%E2%80%94). Remember, \n is a special sequence of characters that causes a line break (a new line).
+
+```python
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+```
+
+Use the code editor below to answer the following questions about verse and use Test Run to check your output in the quiz at the bottom of this page.
+
+1. What is the length of the string variable verse?
+2. What is the index of the first occurrence of the word 'and' in verse?
+3. What is the index of the last occurrence of the word 'you' in verse?
+4. What is the count of occurrences of the word 'you' in the verse?
+
+You will need to refer to Python's [string methods documentation](https://docs.python.org/2/library/string.html).
+
+```python
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+print(verse)
+
+# Use the appropriate functions and methods to answer the questions above
+# Bonus: practice using .format() to output your answers in descriptive messages!
+
+# 1. 
+str_length = len(verse)
+print("The length of the string variable verse is: {}".format(str_length))
+
+# 2.
+first_and = verse.find('and')
+print("The index of the first occurrence of the word 'and' in verse is {}".format(first_and))
+
+# 3.
+last_u = verse.rfind('you')
+print("The index of the last occurrence of the word 'you' in verse is {}".format(last_u))
+
+# 4.
+count_you = verse.count('you')
+print("The count of occurrences of the word 'you' in verse is {}".format(count_you))
+```
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-22-2.png" alt="quiz2"/>
 <br><br><br>
 
 
 
 # 23. Solution: String Methods Practice
+## Version 1
+```python
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+print(verse, "\n")
+
+print("Verse has a length of {} characters.".format(len(verse)))
+print("The first occurence of the word 'and' occurs at the {}th index.".format(verse.find('and')))
+print("The last occurence of the word 'you' occurs at the {}th index.".format(verse.rfind('you')))
+print("The word 'you' occurs {} times in the verse.".format(verse.count('you')))
+```
+
+## Version 2
+```python
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+print(verse, "\n")
+
+message = "Verse has a length of {} characters.\nThe first occurence of the \
+word 'and' occurs at the {}th index.\nThe last occurence of the word 'you' \
+occurs at the {}th index.\nThe word 'you' occurs {} times in the verse."
+
+length = len(verse)
+first_idx = verse.find('and')
+last_idx = verse.rfind('you')
+count = verse.count('you')
+
+print(message.format(length, first_idx, last_idx, count))
+```
+
+## Output
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-23-1.png" alt="solution1"/>
 <br><br><br>
 
 
 
 # 24. "There's a Bug in my Code"
+## Debugging Code
+- to remove bugs
+- it's important to develop effective coding habits and mental calmness
+- with determined persistence, you can prevail over these bugs!
+- You might keep an ongoing page of notes on them
+
+### Understanding Common Error Messages
+- **"ZeroDivisionError: division by zero"**
+- **"SyntaxError: unexpected EOF while parsing"**
+  - This message is often produced when you have accidentally left out something
+  - This can easily happen with code syntax involving pairs, like beginning and ending quotes
+- **"TypeError: len() takes exactly one argument (0 given)"**
+  - if I accidentally do not include the required number of arguments when I'm calling a function (in the example, len)
+  - This message tells me how many arguments the function requires (one in this case), compared with how many I gave it (0)
+
+  ### Search for Your Error Message
+  - Google search or StackOverflow
+
+  ### Use Print Statements to Help Debugging
+  - Adding print statements temporarily into your code can help you see which code lines have been executed before the error occurs
+
 <br><br><br>
 
 
@@ -519,3 +646,18 @@ print(maria_string.format("math", "statistics"))
 
 
 # 26. Summary
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/summary-2-2-26-1.png" alt="summary1"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/summary-2-2-26-2.png" alt="summary2"/>
+
+
+## What's Next
+  - **data structures**: where you organize and group together these data types into different containers
+  - about the two remaining types of operators in Python, along with more useful built-in functions and methods
+
+
+## Additional Practice Resources
+[HackerRank](https://www.hackerrank.com/domains/python)
+[Codewars](https://www.codewars.com/dashboard)
