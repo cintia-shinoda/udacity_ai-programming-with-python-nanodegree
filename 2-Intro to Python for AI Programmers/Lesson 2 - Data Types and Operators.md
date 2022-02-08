@@ -367,19 +367,19 @@ first_word[1]
 
 # 17. Quiz: Type and Type Conversion
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-1.png" alt="quiz1"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-17-1.png" alt="quiz1"/>
 
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-2.png" alt="quiz2"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-17-2.png" alt="quiz2"/>
 
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-3.png" alt="quiz3"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-17-3.png" alt="quiz3"/>
 
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-4.png" alt="quiz4"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-17-4.png" alt="quiz4"/>
   
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-17-5.png" alt="quiz5"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-17-5.png" alt="quiz5"/>
 <br><br><br>
 
 
