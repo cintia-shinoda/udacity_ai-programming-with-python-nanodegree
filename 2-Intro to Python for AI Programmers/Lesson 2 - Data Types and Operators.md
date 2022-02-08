@@ -73,7 +73,9 @@ or
     - need to start with a letter or underscore
     - can't have spaces
     - can't use reserved words or built-in identifiers
+
 #### keywords in Python
+
 ||||||
 |:---:|:---:|:---:|:---:|:---:|
 | False | class | finally | is | return|
@@ -105,20 +107,20 @@ or
 <p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-6-1.png" alt="q1"/>
 
-  <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-6-2a.png" alt="q2a"/>
 
 <p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-6-2b.png" alt="q2b"/>
 
-  <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-6-3.png" alt="q3"/>
 <br><br><br>
 
 
 
 # 7. Solution: Variables and Assignment Operators
-  <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-7-1.png" alt="solution-1"/>
 
 <p align="center">
@@ -291,30 +293,37 @@ first_word[1]
 <p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-1.png" alt="quiz1"/>
 
-  <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-2.png" alt="quiz2"/>
 
-  <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-3.png" alt="quiz3"/>
 
-    <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-3a.png" alt="comment"/>
 
-  <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-4.png" alt="quiz4"/>
 
-  <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-5.png" alt="quiz5"/>
 
-    <p align="center">
+<p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-14-5a.png" alt="comment"/>
 <br><br><br>
 
 
 
 # 15. Solution: Strings
+## Solution: Fiz the Quote
+  ```python 
+  ford_quote = 'Whether you think you can, or you think you can\'t--you\'re right.'
+
+  ford_quote = "Whether you think you can, or you think you can't--you're right."
+  ```
+
   <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-15.png" alt="solutions"/>
+    <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-15.png" alt="solution15"/>
 <br><br><br>
 
 
@@ -386,11 +395,11 @@ first_word[1]
 
 # 18. Solution: Type and Type Conversion
 ## Solution: Total Sales
-```python
-weekly_sales = int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales)
-weekly_sales = str(weekly_sales)  #convert the type back!!
-print("This week's total sales: " + weekly_sales)
-```
+  ```python
+  weekly_sales = int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales)
+  weekly_sales = str(weekly_sales)  #convert the type back!!
+  print("This week's total sales: " + weekly_sales)
+  ```
 <br><br><br>
 
 
