@@ -124,7 +124,7 @@ or
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-7-1.png" alt="solution-1"/>
 
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-7-2.png" alt="solution-2"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-2-7-2.png" alt="solution-2"/>
 <br><br><br>
 
 
@@ -175,7 +175,7 @@ print(.1 + .1 + .1 == 3)
 - 2 types of errors to look out for:
     - **exceptions:** is a problem that occurs when the code is running
     - **syntax:** is a problem detected when Python checks the code before it runs it
-- for more about[Errors and Exceptions](https://docs.python.org/3/tutorial/errors.htmlhttps://docs.python.org/3/tutorial/errors.html)
+- for more about [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.htmlhttps://docs.python.org/3/tutorial/errors.html)
 <br><br><br>
 
 
@@ -405,10 +405,117 @@ first_word[1]
 
 
 # 19. String Methods
+# Functions
+- `len`(this)
+- `type`(12)
+- `print`("Hello world")
 
+## Methods in Python
+- behaves similarly to a function
+- are specific to the data type
+- are called using dot notation
+
+  - `.title()`
+  ```python
+  print("cintia shinoda".title())
+    # Cintia Shinoda
+  ```
+
+  - `.islower()`
+  ```python
+  full_name = "cintia shinoda"
+  print(full_name.islower())
+  # True
+  ```
+
+  - `.count()`
+  ```python
+  print("One fish, two fish, red fish, blue fish.".count('fish'))
+  # 4
+  ```
+
+### some other methods possible with any string:
+| | | | | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| `.capitalize()` | `.encode()`| `.format()` | `.isalpha()` | `.istitle()`|
+| `.casefold()` | `.endswith()`| `.format_map()` | `.isdecimal()` | `.isnumeric()` | `.isupper()` |
+| `.center()` | `.expandtabs()` | `.index()` | `.isdigit()` | `.isprintable()` | `.join()` |
+| `.count()` | `.find()` | `.isalnum()` | `.isidentifier()` | `.isspace()` | `.ljust()` |
+
+- each of these methods accepts the string itself as the 1st. argument of the method - but they also could receibe additional arguments that are passed inside the parentheses
+
+```python
+my_string = "cintia shinoda"
+
+my_string.islower()
+# True
+
+my_string.count('a')
+# 2
+
+my_string.find('a')
+# 3
+```
+
+### one important string method: `.format()`
+```python
+print("Mohammed has {} balloons".format(27))
+# Mohammed has 27 balloons
+```
+
+```python
+animal = "dog"
+action = "bite"
+print("Does your {} {}?".format(animal, action))
+# Does your dog bite?
+```
+
+```python
+maria_string = "Maria loves {} and {}"
+print(maria_string.format("math", "statistics"))
+# Maria loves math and statistics
+```
+
+[Formal syntax for using `.format()` string method](https://docs.python.org/3.6/library/string.html#format-string-syntax)
 <br><br><br>
 
 
 
 # 20. Quiz: String Methods
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-20-1.png" alt="quiz1"/>
+
+  [string method documentation](https://docs.python.org/3/library/stdtypes.html#string-methods)
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-2-20-2.png" alt="quiz2"/>
 <br><br><br>
+
+
+
+# 21. Another String Method - `.split()`
+<br><br><br>
+
+
+
+# 22. Quiz: String Methods Practice
+<br><br><br>
+
+
+
+# 23. Solution: String Methods Practice
+<br><br><br>
+
+
+
+# 24. "There's a Bug in my Code"
+<br><br><br>
+
+
+
+# 25. Conclusion
+<br><br><br>
+
+
+
+# 26. Summary
