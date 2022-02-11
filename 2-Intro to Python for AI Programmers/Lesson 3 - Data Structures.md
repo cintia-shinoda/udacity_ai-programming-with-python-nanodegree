@@ -28,6 +28,50 @@ This is where the beauty of data structures comes into play! You can use a list.
 
 
 # 2. Lists and Membership Operators
+## List
+- one of the data structures in Python
+- **mutable**, **ordered** sequences of elements
+
+- to create a list:
+```python
+months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+```
+
+- can contain any mix and match of the data types:
+```python
+list_of_random_things = [1, 3.4, 'a string', True]
+```
+
+- are ordered containers, zero base indexing (use a starting index of 0)
+```python
+print(months[0])
+# January
+
+print(months[1])
+# February
+
+print(months[7])
+# August
+```
+
+- to pull the last element:
+```python
+print(months[-1])
+# December
+```
+- this won't work:
+```python
+print(list_of_random_things[len(list_of_random_things)])
+# IndexError: list index out of range
+```
+- you can do the following:
+```python
+print(list_of_random_things[len(list_of_random_things) - 1])
+# True
+```
+
+### Slice and Dice with Lists
+
 <br><br><br>
 
 
