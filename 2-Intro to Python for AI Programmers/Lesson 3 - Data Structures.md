@@ -210,6 +210,19 @@ Match the Python code below with the value of the modified sentence1 or sentence
 
 
 # 6. List Methods
+
+| | |
+|:---:|:---|
+| `len()`| |
+| `max()` | |
+| `min()` | |
+| `sorted()` | |
+
+
+## join
+
+## append
+
 <br><br><br>
 
 
@@ -219,7 +232,7 @@ Match the Python code below with the value of the modified sentence1 or sentence
 
 
 
-# 8. Check for Understanding Lists
+# 8. Check for Understanding: Lists
 <br><br><br>
 
 
