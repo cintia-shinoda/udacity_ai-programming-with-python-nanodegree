@@ -210,6 +210,17 @@ Match the Python code below with the value of the modified sentence1 or sentence
 
 
 # 6. List Methods
+```python
+name = 'Jim'
+student = name
+name = 'Tim'
+
+print(name)
+print(student)
+
+# Tim
+# Jim
+```
 
 | | |
 |:---:|:---|
@@ -227,7 +238,7 @@ Match the Python code below with the value of the modified sentence1 or sentence
 
 
 
-# 7. Quis: List Methods
+# 7. Quiz: List Methods
 <br><br><br>
 
 
