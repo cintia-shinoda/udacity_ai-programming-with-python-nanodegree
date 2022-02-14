@@ -224,10 +224,11 @@ print(student)
 
 | | |
 |:---:|:---|
-| `len()`| |
-| `max()` | |
-| `min()` | |
-| `sorted()` | |
+| `len()`| returns the number of elements in the list |
+| `max()` | returns the greatest element of the list |
+| `min()` | returns the smallest element in a list |
+| `sorted()` | returns a copy of a list in order from smallest to largest |
+
 
 
 ## join

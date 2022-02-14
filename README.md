@@ -9,9 +9,10 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Macbook](https://img.shields.io/badge/Apple-MacBook_Pro_2017-999999?style=for-the-badge&logo=apple&logoColor=white)
+![MacOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Macbook-2017](https://img.shields.io/badge/Apple-MacBook_Pro_2017-333333?style=for-the-badge&logo=apple&logoColor=white)
 <br><br>
+
 
 ## Content
 ### 1 - Introduction to AI Programming
@@ -33,6 +34,7 @@
 | &check; | [1. Why Python Programming](https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/2-Intro%20to%20Python%20for%20AI%20Programmers/Lesson%201%20-%20Why%20Python%20Programming.md) | <ul><li>[x] 1. Welcome to the Course</li><li>[x] 2. Programming in Python</li><li>[x] 3. Course Overview</li><li>[x] Prerequisites</li></ul> |
 | &check; | [2. Data Types and Operators](https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/2-Intro%20to%20Python%20for%20AI%20Programmers/Lesson%202%20-%20Data%20Types%20and%20Operators.md) | <ul><li>[x] 1. Introduction</li><li>[x] 2. Arithmetic Operators</li><li>[x] 3. Quiz: Arithmetic Operators</li><li>[x] 4. Solution: Arithmetic Operators</li><li>[x] 5. Variables and Assignment Operators</li><li>[x] 6. Quiz: Variables and Assignment Operators</li><li>[x] 7. Solution: Variables and Assignment Operators</li><li>[x] 8. Integers and Floats</li><li>[x] 9. Quiz: Integers and Floats</li><li>[x] 10. Booleans, Comparison Operators, and Logical Operators<li>[x] 11. Quiz: Booleans, Comparison Operators, and Logical Operators</li><li>[x] 12. Solution: Booleans, Comparison Operators, and Logical Operators</li><li>[x] 13. Strings</li><li>[x] 14. Quiz: Strings</li><li>[x] 15. Solution: Strings</li><li>[x] 16. Type and Type Conversion</li><li>[x] 17. Quiz: Type and Type Conversion</li><li>[x] 18. Solution: Type and Type Conversion</li><li>[x] 19. String Methods</li><li>[x] 20. Quiz: String Methods</li><li>[x] 21. Another String Method - `.split()`</li><li>[x] 22. Quiz: String Methods Practice</li><li>[x] 23. Solution: String Methods Practice</li><li>[x] 24. "There's a Bug in my Code"</li><li>[x] 25. Conclusion</li><li>[x] 26. Summary</li></ul> |
 | | [3. Data Structures](https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/2-Intro%20to%20Python%20for%20AI%20Programmers/Lesson%203%20-%20Data%20Structures.md) | <ul><li>[x] 1. Introduction</li><li>[x] 2. Lists and Membership Operators</li><li>[x] 3. Mutability and Order</li><li>[x] 4. Quiz: Lists and Membership Operators</li><li>[x] 5. Solution: Lists and Membership Operators</li><li>[] 6. List Methods</li><li>[] 7. Quiz: List Methods</li><li>[] 8. Check for Understanding: Lists</li><li>[] 9. Tuples</li><li>[] 10. Quiz: Tuples</li></ul> |
+
 
 | | 4. Control Flow | <ul><li>[] </li></ul> |
 | | 5. Functions | <ul><li>[] </li></ul> |
