@@ -231,9 +231,19 @@ print(student)
 
 
 
-## join
+## `join`
+string method that takes a list of strings as an argument, and returns a string consisting of the list elements joined by a separator string
+```python
+new_str = "\n".join(["fore", "aft", "starboard", "port"])
+print(new_str)
 
-## append
+# fore
+# aft
+# starboard
+# port
+```
+
+## `append`
 
 <br><br><br>
 
