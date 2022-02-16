@@ -236,11 +236,16 @@ string method that takes a list of strings as an argument, and returns a string 
 ```python
 new_str = "\n".join(["fore", "aft", "starboard", "port"])
 print(new_str)
-
 # fore
 # aft
 # starboard
 # port
+```
+
+```python
+name = "-".join(["Garcia", "O'Kelly", "Davis"])
+print(name)
+#García-O'Kelly-Davis
 ```
 
 ## `append`
