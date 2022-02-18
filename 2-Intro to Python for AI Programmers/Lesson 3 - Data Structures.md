@@ -253,6 +253,7 @@ print("grades: " + str(grades))
 | `sorted()` | returns a copy of a list in order from smallest to largest - the original list remains unchanged |
 
 ### obs: max()
+the max() function is defined in terms of the greater than comparison operator (>)
 #### in a list of numbers:
 ```python
 batch_sizes = [15, 6, 89, 34, 65, 35]
