@@ -222,14 +222,62 @@ print(student)
 # Jim
 ```
 
+```python
+scores = ["B", "C", "A", "D", "B", "A"]
+grades = scores
+print("scores: " + str(scores))
+print("grades: " + str(grades))
+
+# scores: ["B", "C", "A", "D", "B", "A"]
+# grades: ["B", "C", "A", "D", "B", "A"]
+```
+
+```python
+scores = ["B", "C", "A", "D", "B", "A"]
+grades = scores
+
+scores[3] = "B"
+
+print("scores: " + str(scores))
+print("grades: " + str(grades))
+
+# scores: ["B", "C", "A", "B", "B", "A"]
+# grades: ["B", "C", "A", "B", "B", "A"]
+```
+
 | | |
 |:---:|:---|
 | `len()`| returns the number of elements in the list |
 | `max()` | returns the greatest element of the list |
 | `min()` | returns the smallest element in a list |
-| `sorted()` | returns a copy of a list in order from smallest to largest |
+| `sorted()` | returns a copy of a list in order from smallest to largest - the original list remains unchanged |
 
+### obs: max()
+#### in a list of numbers:
+```python
+batch_sizes = [15, 6, 89, 34, 65, 35]
+print(max(batch_sizes))
+# 89
+```
+#### in a list of strings:
+```python
+python_varieties = ['Burmese Python', 'African Rock Python', 'Ball Python', 'Reticulated Python', 'Angolan Python']
+print(max(python_varieties))
+# Reticulated Python
+```
 
+### obs: sorted()
+```python
+sizes = [15, 6, 89, 34, 65, 35]
+print(sorted(sizes))
+# [6, 15, 34, 35, 65, 89]
+```
+
+```python
+sizes = [15, 6, 89, 34, 65, 35]
+print(sorted(sizes, reverse=True))
+# [89, 65, 35, 34, 15, 6]
+```
 
 ## `join`
 string method that takes a list of strings as an argument, and returns a string consisting of the list elements joined by a separator string
