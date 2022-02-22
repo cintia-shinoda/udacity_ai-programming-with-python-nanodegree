@@ -298,7 +298,13 @@ print(name)
 ```
 
 ## `append`
-
+adds an element to the end of a list
+```python
+letters =  ['a', 'b', 'c', 'd']
+letters.append('z')
+print(letters)
+# ['a', 'b', 'c', 'd', 'z']
+```
 <br><br><br>
 
 
