@@ -280,11 +280,12 @@ print(sorted(sizes, reverse=True))
 # [89, 65, 35, 34, 15, 6]
 ```
 
+
 ## `join`
 string method that takes a list of strings as an argument, and returns a string consisting of the list elements joined by a separator string
 ```python
-new_str = "\n".join(["fore", "aft", "starboard", "port"])
-print(new_str)
+nautical_directions = "\n".join(["fore", "aft", "starboard", "port"])
+print(nautical_directions)
 # fore
 # aft
 # starboard
@@ -292,10 +293,13 @@ print(new_str)
 ```
 
 ```python
-name = "-".join(["Garcia", "O'Kelly", "Davis"])
-print(name)
-#García-O'Kelly-Davis
+names = ["Garcia", "O'Kelly", "Davis"]
+print("-".join(names))
+# García-O'Kelly-Davis
 ```
+
+It is important to remember to separate each of the items in the list you are joining with a comma (,). Forgetting to do so will not trigger an error, but will also give you unexpected results
+
 
 ## `append`
 adds an element to the end of a list
@@ -310,6 +314,14 @@ print(letters)
 
 
 # 7. Quiz: List Methods
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-7-1.png" alt="q1"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-7-2.png" alt="q2"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-7-3.png" alt="q3"/>
 <br><br><br>
 
 
