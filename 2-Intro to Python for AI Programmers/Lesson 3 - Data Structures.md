@@ -346,8 +346,73 @@ print(letters)
 
 
 # 9. Tuples
+- data type for **immutable** (can't add and remove items or sort them in place), **ordered** sequences of elements
+- often used to store related pieces of information
+```python
+Angkor = (13.4125, 103.866667)
+print(type(AngkorWat))
+print("Angkor Wat is at latitude: {}".format(AngkorWat[0]))
+print("Angkor Wat is at longitude: {}".format(AngkorWat[1]))
+
+# <class 'tuple'>
+# Angkor Wat is at latitude: 13.4125
+# Angkor Wat is at longitude: 103.866667
+```
+- can also be used to assign multiple variables in a compact way
+- the parentheses are optional when defining tuples
+```python
+dimensions = 52, 40, 100
+length, width, height = dimensions  # tuple unpacking
+print("The dimensions are {}x{}x{}".format(length, width, height))
+
+# The dimensions are 52x40x100
+```
+or 
+```python
+length, width, height = 52, 40, 100
+print("The dimensions are {}x{}x{}".format(length, width, height))
+```
 <br><br><br>
 
 
 
 # 10. Quiz: Tuples
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-10-1.png" alt="q1"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-10-2.png" alt="q2"/>
+<br><br><br>
+
+
+
+# 11. Sets
+- data type for **mutable**, **unorded** collections of unique elements
+- one application of a set is to quickly remove duplicates from a list
+```python
+numbers = [1, 2, 6, 3, 1, 1, 6]
+unique_nums = set(numbers)
+print(unique_nums)
+
+# {1, 2, 3, 6}
+```
+<br><br><br>
+
+
+
+# 12. Quiz: Sets
+<br><br><br>
+
+
+
+# 13. 
+<br><br><br>
+
+
+
+# 14. Quiz: 
+<br><br><br>
+
+
+
+# 15. Solution:
