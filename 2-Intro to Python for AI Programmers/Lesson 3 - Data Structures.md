@@ -418,6 +418,10 @@ print(fuit)
 
 
 # 12. Quiz: Sets
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-12-1.png" alt="q1"/>
+
+
 <br><br><br>
 
 
