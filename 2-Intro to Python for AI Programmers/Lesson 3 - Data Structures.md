@@ -397,22 +397,42 @@ print(unique_nums)
 # {1, 2, 3, 6}
 ```
 
+- supports `in` operator:
+```python
+print(2 in unique_nums)
+# True
+```
+
+- to add elements to sets using `add` method:
+```python
+unique_nums.add(8)
+```
+
+- to remove elements: `pop` method: a random element is removed
+```python
+
+```
+
 ```python
 fruit = {"apple", "banana", "orange", "grapefruit"}  # define a set
 
 print("watermelon" in fruit)  # check for element
+# False
 
 fruit.add("watermelon")  # add an element
 print(fruit)
+# {'grapefruit', 'orange', 'watermelon', 'banana', 'apple'}
 
 print(fruit.pop()) # remove a random element
 print(fuit)
-
-# False
-# {'grapefruit', 'orange', 'watermelon', 'banana', 'apple'}
 # grapefruit
 # {'orange', 'watermelon', 'banana', 'apple'}
 ```
+
+- other operations: include those of mathematical sets:
+  - union
+  - intersection
+  - difference
 <br><br><br>
 
 
@@ -421,12 +441,14 @@ print(fuit)
 <p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-12-1.png" alt="q1"/>
 
-
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-12-2.png" alt="q2"/>
 <br><br><br>
 
 
 
-# 13. 
+# 13. Dictionaries and Identity Operators
+
 <br><br><br>
 
 
