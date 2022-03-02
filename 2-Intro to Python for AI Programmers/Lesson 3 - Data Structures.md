@@ -448,14 +448,112 @@ print(fuit)
 
 
 # 13. Dictionaries and Identity Operators
+## Dictionaries
+- data type for **mutable** objects that store mappings of unique keys to values
+- pair key-value
+- dictionaries are mutable but their keys need to be any immutable type (strings, integers, or tuples)
+- it's not necessary for every key in a dictionary to have the same type
 
+- to  look up at values: `dict_name[key]`
+```python
+elements = {'hydrogen': 1, 'helium': 2, 'carbon': 6}
+print(elements['carbon'])
+# 6
+```
+
+- to insert new values into the dictionary:
+```python
+elements['lithium'] = 3
+print(elements)
+# {'hydrogen': 1, 'helium': 2, 'carbon': 6, 'lithium': 3}
+```
+
+- to verify whether a key is in the dictionary:
+```python
+print('mithril' in elements)
+# False
+```
+
+- `get` method:
+```python
+print(elements.get('dilithium'))
+# None
+```
+  - get method is better than square bracket look-ups, because this can cause errors and crash your program:
+  ```python
+  print(elements['dilithium'])
+  # KeyError: 'dilithium'
+  ```
+
+## Identity Operators
+
+| keyword  | operation |
+|:---:|:---|
+| `is` | evaluates if both sides have the same identity |
+| `is not` | evaluates if both sides have *different* identities |
+
+- `is` operator: check if a key return None and check if a key doesn't return None with  `is not` operator
+```python
+n = elements.get("dilithium")
+print(n is None)
+print(n is not None)
+# True
+# False
+```
 <br><br><br>
 
 
 
-# 14. Quiz: 
+# 14. Quiz: Dictionaries and Identity Operators
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-14-1.png" alt="q1"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-14-2.png" alt="q2"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-14-3.png" alt="q3"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-14-4.png" alt="q4"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-14-5.png" alt="q5"/>
+  
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-14-5a.png" alt="q5a"/>
 <br><br><br>
 
 
 
-# 15. Solution:
+# 15. Solution: Dictionaries and Identity Operators
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-14-1.png" alt="solution1"/>
+
+```python
+population = {'Shanghai': 17.8, 'Istanbul': 13.3, 'Karachi': 13.0, 'Mumbai': 12.5}
+```
+
+
+
+# 16. Quiz: More with Dictionaries
+<br><br><br>
+
+
+
+# 17. When to Use Dictionaries?
+<br><br><br>
+
+
+
+# 18. 
+<br><br><br>
+
+
+
+# 19. Compound Data Structures
+<br><br><br>
+
+
+
+# 20. Quiz: Compound Data Structures
