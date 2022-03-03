@@ -633,7 +633,7 @@ print('elements = ', elements)
 
 # 20. Quiz: Compound Data Structures
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-1.png" alt="quiz1"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-20-1.png" alt="quiz1"/>
 
 ```python
 elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H', 'is_noble_gas': False},
@@ -650,19 +650,19 @@ print(elements['helium']['is_noble_gas'])
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-1.png" alt="solution1"/>
 
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-2.png" alt="quiz2"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-20-2.png" alt="quiz2"/>
 
 <p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-2.png" alt="solution2"/>
 
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-3.png" alt="quiz3"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-20-3.png" alt="quiz3"/>
 
 <p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-3.png" alt="solution3"/>
 
 <p align="center">
-  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-4.png" alt="quiz4"/>
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-20-4.png" alt="quiz4"/>
 
 <p align="center">
   <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-4.png" alt="solution4"/>
