@@ -537,23 +537,259 @@ population = {'Shanghai': 17.8, 'Istanbul': 13.3, 'Karachi': 13.0, 'Mumbai': 12.
 
 
 # 16. Quiz: More with Dictionaries
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-16-1.png" alt="q1"/>
 <br><br><br>
 
 
 
 # 17. When to Use Dictionaries?
+- you also want to print a few more details for each holding. For e.g., what is your rate of return on each of the holdings?
+A dictionary will work well here as there is a key: value association. In other words, there is a linkage between each holding and the information
+```python
+VINIX =  {'C': 0.74, 'MA': 0.78, 'BA': 0.79, 'PG': 0.85, 'CSCO': 0.88, 'VZ': 0.9, 'PFE': 0.92, 'HD': 0.97, 'INTC': 1.0, 'T': 1.01, 'V': 1.02, 'UNH': 1.02, 'WFC': 1.05, 'CVX': 1.05, 'BAC': 1.15, 'JNJ': 1.41, 'GOOGL': 1.46, 'GOOG': 1.47, 'BRK.B': 1.5, 'XOM': 1.52, 'JPM': 1.53, 'FB': 2.02, 'AMZN': 2.96, 'MSFT': 3.28, 'AAPL': 3.94}
+```
+
+You can add even other details, such as rate of return YTD. For that we can add the details into the value associated with the key, i.e., the ticker symbol for the holding.
+Like this:
+```python
+VINIX = {'C': [0.74, -6.51],  'MA': [0.78, 34.77],  'BA': [0.79, 17.01],  'PG': [0.85, -8.81],  'CSCO': [0.88, 18.56],  'VZ': [0.9, 2.16],  'PFE': [0.92, 13.96],  'HD': [0.97, 3.2],  'INTC': [1.0, 2.61],  'T': [1.01, -15.19],  'V': [1.02, 24.0],  'UNH': [1.02, 19.32],  'WFC': [1.05, -3.59],  'CVX': [1.05, -5.77],  'BAC': [1.15, 4.27],  'JNJ': [1.41, -5.58],  'GOOGL': [1.46, 17.84],  'GOOG': [1.47, 17.03],  'BRK.B': [1.5, 4.54],  'XOM': [1.52, -6.87],  'JPM': [1.53, 7.66],  'FB': [2.02, 0.91], 'AMZN': [2.96, 62.75], 'MSFT': [3.28, 26.61], 'AAPL': [3.94, 26.01]}
+```
 <br><br><br>
 
 
 
-# 18. 
+# 18. Check for Understanding: Data Structures
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-18-1.png" alt="q1"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-18-1.png" alt="solution1"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-18-2.png" alt="q2"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-18-2.png" alt="solution2"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-18-3.png" alt="q3"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-18-3.png" alt="solution3"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-18-4.png" alt="q4"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-18-4.png" alt="solution4"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-18-5.png" alt="q5"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-3-18-5a.png" alt="q5a"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-18-5.png" alt="solution5"/>
 <br><br><br>
 
 
 
 # 19. Compound Data Structures
+- containers inside other containers
+```python
+elements = {"hydrogen": {"number": 1,
+                         "weight": 1.00794,
+                         "symbol": "H"},
+              "helium": {"number": 2,
+                         "weight": 4.002602,
+                         "symbol": "He"}}
+print(elements['helium'])
+print(elements.get('unobtainium', 'There\'s no such element!'))
+
+# {"number": 2, "symbol": "He", "weight": 4.002602}
+# There's no such element!
+```
+
+```python
+print(elements['helium']['weight'])
+# 4.002602
+```
+
+- to add a new key to the elements dictionary:
+```python
+oxygen = {"number":8,"weight":15.999,"symbol":"O"}  # create a new oxygen dictionary 
+elements["oxygen"] = oxygen  # assign 'oxygen' as a key to the elements dictionary
+print('elements = ', elements)
+
+# elements =  {"hydrogen": {"number": 1, "weight": 1.00794, "symbol": 'H'},
+#             "helium": {"number": 2, "weight": 4.002602, "symbol": "He"}, 
+#             "oxygen": {"number": 8, "weight": 15.999, "symbol": "O"}}
+```
 <br><br><br>
 
 
 
 # 20. Quiz: Compound Data Structures
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-1.png" alt="quiz1"/>
+
+```python
+elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H', 'is_noble_gas': False},
+            'helium': {'number': 2, 'weight': 4.002602, 'symbol': 'He', 'is_noble_gas': True}}
+
+# todo: Add an 'is_noble_gas' entry to the hydrogen and helium dictionaries
+# hint: helium is a noble gas, hydrogen isn't
+
+print(elements['hydrogen']['is_noble_gas'])
+print(elements['helium']['is_noble_gas'])
+```
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-1.png" alt="solution1"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-2.png" alt="quiz2"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-2.png" alt="solution2"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-3.png" alt="quiz3"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-3.png" alt="solution3"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-4.png" alt="quiz4"/>
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-20-4.png" alt="solution4"/>
+<br><br><br>
+
+
+
+# 21. Solution: Compound Data Structures
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-21.png" alt="solution21"/>
+  <br><br><br>
+
+
+
+# 22. Practice Questions
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-22-1.png" alt="quiz1"/>
+
+```python
+verse = "if you can keep your head when all about you are losing theirs and blaming it on you   if you can trust yourself when all men doubt you     but make allowance for their doubting too   if you can wait and not be tired by waiting      or being lied about  don’t deal in lies   or being hated  don’t give way to hating      and yet don’t look too good  nor talk too wise"
+print(verse, '\n')
+
+# split verse into list of words
+verse_list = verse.split()
+print(verse_list, '\n')
+
+# convert list to a data structure that stores unique elements
+verse_set = set(verse_list)
+print(verse_set, '\n')
+
+# print the number of unique words
+num_unique = len(verse_set)
+print(num_unique, '\n')
+  ```
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-22-2.png" alt="quiz2"/>
+
+```python
+verse_dict =  {'if': 3, 'you': 6, 'can': 3, 'keep': 1, 'your': 1, 'head': 1, 'when': 2, 'all': 2, 'about': 2, 'are': 1, 'losing': 1, 'theirs': 1, 'and': 3, 'blaming': 1, 'it': 1, 'on': 1, 'trust': 1, 'yourself': 1, 'men': 1, 'doubt': 1, 'but': 1, 'make': 1, 'allowance': 1, 'for': 1, 'their': 1, 'doubting': 1, 'too': 3, 'wait': 1, 'not': 1, 'be': 1, 'tired': 1, 'by': 1, 'waiting': 1, 'or': 2, 'being': 2, 'lied': 1, 'don\'t': 3, 'deal': 1, 'in': 1, 'lies': 1, 'hated': 1, 'give': 1, 'way': 1, 'to': 1, 'hating': 1, 'yet': 1, 'look': 1, 'good': 1, 'nor': 1, 'talk': 1, 'wise': 1}
+print(verse_dict, '\n')
+
+# find number of unique keys in the dictionary
+num_keys = len(verse_dict)
+print(num_keys)
+
+# find whether 'breathe' is a key in the dictionary
+contains_breathe = 'breathe' in verse_dict
+print(contains_breathe)
+
+# create and sort a list of the dictionary's keys
+sorted_keys = sorted(verse_dict.keys())
+
+# get the first element in the sorted list of keys
+print(sorted_keys[0])
+
+# find the element with the highest value in the list of keys
+print(sorted_keys[-1]) 
+```
+
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/solution-2-3-22-3.png" alt="quiz3"/>
+<br><br><br>
+
+
+
+# 23. Solution: Practice Questions
+## Solution: Count Unique Words
+```python
+verse = "if you can keep your head when all about you are losing theirs and blaming it on you   if you can trust yourself when all men doubt you     but make allowance for their doubting too   if you can wait and not be tired by waiting      or being lied about  don’t deal in lies   or being hated  don’t give way to hating      and yet don’t look too good  nor talk too wise"
+print(verse, "\n")
+
+# split verse into list of words
+verse_list = verse.split()
+print(verse_list, '\n')
+  # ['if', 'you', 'can', 'keep', 'your', 'head', 'when', 'all', 'about', 'you', 'are', 'losing', 'theirs', 'and', 'blaming', 'it', 'on', 'you', 'if', 'you', 'can', 'trust', 'yourself', 'when', 'all', 'men', 'doubt', 'you', 'but', 'make', 'allowance', 'for', 'their', 'doubting', 'too', 'if', 'you', 'can', 'wait', 'and', 'not', 'be', 'tired', 'by', 'waiting', 'or', 'being', 'lied', 'about', 'don’t', 'deal', 'in', 'lies', 'or', 'being', 'hated', 'don’t', 'give', 'way', 'to', 'hating', 'and', 'yet', 'don’t', 'look', 'too', 'good', 'nor', 'talk', 'too', 'wise'] 
+
+# convert list to set to get unique words
+verse_set = set(verse_list)
+print(verse_set, '\n')
+  # {'or', 'when', 'hating', 'make', 'all', 'head', 'waiting', 'losing', 'don’t', 'to', 'look', 'about', 'yourself', 'by', 'wise', 'doubting', 'trust', 'deal', 'allowance', 'being', 'too', 'wait', 'in', 'nor', 'for', 'theirs', 'and', 'if', 'on', 'lied', 'are', 'your', 'but', 'give', 'yet', 'lies', 'good', 'men', 'tired', 'doubt', 'hated', 'blaming', 'can', 'be', 'keep', 'their', 'not', 'it', 'talk', 'way', 'you'}
+
+# print the number of unique words
+num_unique = len(verse_set)
+print(num_unique)
+  # 51
+```
+
+## Solution: Verse Dictionary
+```python
+verse_dict =  {'if': 3, 'you': 6, 'can': 3, 'keep': 1, 'your': 1, 'head': 1, 'when': 2, 'all': 2, 'about': 2, 'are': 1, 'losing': 1, 'theirs': 1, 'and': 3, 'blaming': 1, 'it': 1, 'on': 1, 'trust': 1, 'yourself': 1, 'men': 1, 'doubt': 1, 'but': 1, 'make': 1, 'allowance': 1, 'for': 1, 'their': 1, 'doubting': 1, 'too': 3, 'wait': 1, 'not': 1, 'be': 1, 'tired': 1, 'by': 1, 'waiting': 1, 'or': 2, 'being': 2, 'lied': 1, 'don\'t': 3, 'deal': 1, 'in': 1, 'lies': 1, 'hated': 1, 'give': 1, 'way': 1, 'to': 1, 'hating': 1, 'yet': 1, 'look': 1, 'good': 1, 'nor': 1, 'talk': 1, 'wise': 1}
+print(verse_dict, '\n')
+
+# find number of unique keys in the dictionary
+num_keys = len(verse_dict)
+print(num_keys)
+  # 51
+
+# find whether 'breathe' is a key in the dictionary
+contains_breathe = "breathe" in verse_dict
+print(contains_breathe)
+  # False
+
+# create and sort a list of the dictionary's keys
+sorted_keys = sorted(verse_dict.keys())
+
+# get the first element in the sorted list of keys
+print(sorted_keys[0])
+  # about
+
+# find the element with the highest value in the list of keys
+print(sorted_keys[-1]) 
+  # yourself
+```
+<br><br><br>
+
+
+
+# 24. Conclusion
+## Congratulations on completing this lesson on Data Structures!
+
+| Data Structure | Ordered | Mutable | Constructor | Example |
+|:---:|:---:|:---:|:---|:---|
+| List | Yes | Yes | `[ ]` or `list()` | `[5.7, 4, 'yes', 5.7]` |
+| Tuple | Yes | No | `( )` or `tuple()` | `(5.7, 4, 'yes', 5.7)` |
+| Set | No | Yes | `{ }`* or `set()` | `{5.7, 4, 'yes'}` |
+| Dictionary | No | No** | `{ }` or `dict()` | `{'Jun': 75, 'Jul':89}` 
+
+* You can use curly braces to define a set like this: `{1, 2, 3}`. However, if you leave the curly braces empty like this: `{}` Python will instead create an empty dictionary. So to create an empty set, use `set()`.
+** A dictionary itself is mutable, but each of its individual keys must be immutable.
