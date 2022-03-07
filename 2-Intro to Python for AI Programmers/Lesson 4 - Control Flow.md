@@ -205,16 +205,54 @@ print(result)
 
 
 # 7. Boolean Expressions for Conditions
-Complex Boolean Expressions
+## Complex Boolean Expressions
 ```python
 if 18.5 <= weight / height ** 2 < 25:
-    print("BMI is considered `normal`")
+    print("BMI is considered 'normal'")
 
 if is raining and is_sunny:
     print("Is there a rainbow?")
 
 if (not unsubscribed) and (location == "USA" or location == "CAN"):
     print("send email")
+```
+
+
+## Good and Bad Examples
+1. don't use `if True:` or `if False:`
+```python
+if True:
+    print("This indent code will always get run")
+```
+
+```python
+if is_cold or not is_cold:
+    print("This indent code will always get run")
+```
+2. be careful writing expressions that use logical operators (`and`, `or`, `not`)
+```python
+if weather == "snow" or "rain":
+    print("wear boots!")
+```
+3. don't evaluate the truth of a boolean variable with `== True` or `== False` : the variable itself is a boolean expression
+```python
+if is_cold == True:
+    print("The weather is cold!")
+```
+instead, use like this:
+```python
+if is_cold:
+    print("The weather is cold!")
+```
+
+
+## Truth Value Testing
+```python
+errors = 3
+if errors:
+    print("You have {} errors to fix!".format(errors))
+else:
+    print("No errors to fix!")
 ```
 <br><br><br>
 
