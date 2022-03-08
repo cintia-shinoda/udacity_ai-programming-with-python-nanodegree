@@ -259,6 +259,9 @@ else:
 
 
 # 8. Quiz: Boolean Expressions for Conditions
+<p align="center">
+  <img src="https://github.com/cintia-shinoda/udacity_ai-programming-with-python-nanodegree/blob/master/images/quiz-2-4-8-1.png" alt="quiz1"/>
+
 <br><br><br>
 
 
