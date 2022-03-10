@@ -272,6 +272,18 @@ else:
 
 
 # 10. For Loops
+```python
+cities = ['new york city', 'mountain view', 'chicago', 'los angeles']
+for city in cities:
+    print(city)
+print("Done!")
+
+# new york city
+# mountain view
+# chicago
+# los angeles
+# Done!
+```
 <br><br><br>
 
 
