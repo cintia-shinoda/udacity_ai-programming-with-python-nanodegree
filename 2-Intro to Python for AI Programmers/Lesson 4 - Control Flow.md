@@ -284,6 +284,16 @@ print("Done!")
 # los angeles
 # Done!
 ```
+
+## using `range()` function with `for` loops
+```python
+for i in range(3):
+    print("Hello!")
+
+# Hello!
+# Hello!
+# Hello!
+```
 <br><br><br>
 
 
