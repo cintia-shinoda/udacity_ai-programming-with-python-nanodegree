@@ -294,6 +294,16 @@ for i in range(3):
 # Hello!
 # Hello!
 ```
+
+## creating and modifying lists
+### creating
+```python
+cities = ['new york', 'mountain view', 'chicago', 'los angeles']
+capitalized_cities = []
+
+for city in cities:
+    capitalized_cities.append(city.title())
+```
 <br><br><br>
 
 
