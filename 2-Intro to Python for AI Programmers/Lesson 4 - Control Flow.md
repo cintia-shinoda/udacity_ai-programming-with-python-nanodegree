@@ -333,7 +333,3 @@ Write a for loop below that will print out every whole number that is a multiple
 # 14. Solution: For Loops Quiz
 <br><br><br>
 
-
-
-
-
